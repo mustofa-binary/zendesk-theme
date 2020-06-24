@@ -75,6 +75,11 @@ sup {
 
 img {
   border-style: none;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 button,
@@ -82,7 +87,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;

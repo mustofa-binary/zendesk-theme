@@ -1,4 +1,32 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("//binarysupport1.zendesk.com/hc/IBMPlexSans-Regular.ttf.ttf") format("truetype");
+  font-weight: "normal";
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("//binarysupport1.zendesk.com/hc/IBMPlexSans-Bold.ttf.ttf") format("truetype");
+  font-weight: "bold";
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("//binarysupport1.zendesk.com/hc/IBMPlexSans-Light.ttf.ttf") format("truetype");
+  font-weight: "300";
+  font-style: "normal";
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("//binarysupport1.zendesk.com/hc/IBMPlexSans-SemiBold.ttf.ttf") format("truetype");
+  font-weight: "500";
+  font-style: "normal";
+}
+
 /***** Normalize.css *****/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -74,6 +102,11 @@ sup {
 
 img {
   border-style: none;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 button,
@@ -81,7 +114,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -1566,7 +1599,8 @@ ul {
   max-width: 100%;
 }
 
-.article-body ul, .article-body ol {
+.article-body ul,
+.article-body ol {
   padding-left: 20px;
   list-style-position: outside;
   margin: 20px 0 20px 20px;
@@ -1579,7 +1613,12 @@ ul {
   margin-right: 20px;
 }
 
-.article-body ul > ul, .article-body ol > ol, .article-body ol > ul, .article-body ul > ol, .article-body li > ul, .article-body li > ol {
+.article-body ul > ul,
+.article-body ol > ol,
+.article-body ol > ul,
+.article-body ul > ol,
+.article-body li > ul,
+.article-body li > ol {
   margin: 0;
 }
 
@@ -2025,7 +2064,8 @@ ul {
   max-width: 100%;
 }
 
-.comment-body ul, .comment-body ol {
+.comment-body ul,
+.comment-body ol {
   padding-left: 20px;
   list-style-position: outside;
   margin: 20px 0 20px 20px;
@@ -2038,7 +2078,12 @@ ul {
   margin-right: 20px;
 }
 
-.comment-body ul > ul, .comment-body ol > ol, .comment-body ol > ul, .comment-body ul > ol, .comment-body li > ul, .comment-body li > ol {
+.comment-body ul > ul,
+.comment-body ol > ol,
+.comment-body ol > ul,
+.comment-body ul > ol,
+.comment-body li > ul,
+.comment-body li > ol {
   margin: 0;
 }
 
@@ -2604,7 +2649,8 @@ ul {
   max-width: 100%;
 }
 
-.post-body ul, .post-body ol {
+.post-body ul,
+.post-body ol {
   padding-left: 20px;
   list-style-position: outside;
   margin: 20px 0 20px 20px;
@@ -2617,7 +2663,12 @@ ul {
   margin-right: 20px;
 }
 
-.post-body ul > ul, .post-body ol > ol, .post-body ol > ul, .post-body ul > ol, .post-body li > ul, .post-body li > ol {
+.post-body ul > ul,
+.post-body ol > ol,
+.post-body ol > ul,
+.post-body ul > ol,
+.post-body li > ul,
+.post-body li > ol {
   margin: 0;
 }
 
