@@ -1,10 +1,9 @@
 {
   "name": "zendesk-theme",
   "author": "Deriv",
-  "version": "2.2.7",
-  "api_version": 2.0,
-  "defaultLocale": "en-us",
-  "frameworkVersion": "2.0",
+  "version": "2.2.6",
+  "api_version": 2,
+  "default_locale": "en-us",
   "settings": [
     {
       "label": "colors_group_label",
@@ -43,37 +42,6 @@
           "description": "background_color_description",
           "label": "background_color_label",
           "value": "#FFFFFF"
-        }
-      ]
-    },
-    {
-      "label": "fonts_group_label",
-      "variables": [
-        {
-          "identifier": "heading_font",
-          "type": "list",
-          "description": "heading_font_description",
-          "label": "heading_font_label",
-          "options": [
-            {
-              "label": "IBM Plex Sans",
-              "value": "'IBM Plex Sans', Arial, sans-serif"
-            }
-          ],
-          "value": "'IBM Plex Sans', Arial, sans-serif"
-        },
-        {
-          "identifier": "text_font",
-          "type": "list",
-          "description": "text_font_description",
-          "label": "text_font_label",
-          "options": [
-            {
-              "label": "IBM Plex Sans",
-              "value": "'IBM Plex Sans', Arial, sans-serif"
-            }
-          ],
-          "value": "'IBM Plex Sans', Arial, sans-serif"
         }
       ]
     },
