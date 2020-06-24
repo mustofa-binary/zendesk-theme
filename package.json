@@ -1,6 +1,6 @@
 {
   "name": "zendesk-theme",
-  "version": "1.0.1",
+  "version": "2.2.7",
   "description": "zendesk theme for deriv",
   "scripts": {
     "prettier:check": "prettier --check \"./**/*.{js,json,scss,md}\"",
